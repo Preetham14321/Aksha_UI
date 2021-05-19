@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.click {
+  position: fixed;
+  top: 28.8em;
+  left: 52em;
+  border: 2px solid red;
+  width: 6em;
+  height: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.color {
+  position: fixed;
+  top: 14em;
+  left: 25em;
+}
+.container {
+  border: 1px solid black;
+
+  position: fixed;
+  top: 18em;
+  left: 33em;
+  width: 423px;
+  height: 143px;
+}
+/* .container {
+  border: 1px solid black;
+  position: relative;
+  top: 16.5em;
+  left: 2rem;
+  height: 85px;
+  width: 293px;
+}
+.color {
+  text-align: center;
+  position: fixed;
+  top: 14.3em;
+  left: 3em;
+  font-size: 20px;
+}
+.click {
+  position: fixed;
+  top: 24em;
+  left: 10em;
+  border: 2px solid red;
+  width: 6em;
+  height: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: black;
+} */
+@media screen and (max-width: 480px) {
+  .container {
+    border: 1px solid black;
+    position: relative;
+    top: 16.5em;
+    left: 2rem;
+    height: 85px;
+    width: 293px;
+  }
+  .color {
+    text-align: center;
+    position: fixed;
+    top: 14.3em;
+    left: 3em;
+    font-size: 20px;
+  }
+  .click {
+    position: fixed;
+    top: 24em;
+    left: 10em;
+    border: 2px solid red;
+    width: 6em;
+    height: 2em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+  }
+} ;
